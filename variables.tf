@@ -1,7 +1,7 @@
 variable "name" {
   description = "The ESS Scaling rule name."
   type        = string
-  default     = "essscalingruleconfig"
+  default     = "ess-scaling-rule-config"
 }
 
 variable "adjustment_type" {
@@ -14,18 +14,6 @@ variable "name_regex" {
   description = "Scaling name regex."
   type        = string
   default     = "^ubuntu_18.*64"
-}
-
-variable "vpc_cidr_block" {
-  description = "VPC cidr block."
-  type        = string
-  default     = "172.16.0.0/16"
-}
-
-variable "vswitch_cidr_block" {
-  description = "VSwitch cidr block."
-  type        = string
-  default     = "172.16.0.0/24"
 }
 
 variable "rule_type" {
@@ -74,4 +62,22 @@ variable "removal_policies" {
   description = "Rule removal policies."
   type        = list(string)
   default     = ["OldestInstance","NewestInstance"]
+}
+
+variable "availability_zone" {
+  description = "The available zone to launch modules."
+  type        = string
+  default     = ""
+}
+
+variable "vswitch_id" {
+  description = "VSwitch variables, if vswitch_id is empty, then the net_type = classic."
+  type        = string
+  default     = ""
+}
+
+variable "security_group_id" {
+  description = "A list of security group ids to associate with."
+  type        = string
+  default     = ""
 }
