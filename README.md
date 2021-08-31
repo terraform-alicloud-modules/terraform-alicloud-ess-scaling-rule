@@ -21,7 +21,7 @@ The Module requires Terraform 0.12 and Terraform Provider AliCloud 1.56.0+.
 ## Usage
 
 ```hcl
-module "rule" {
+module "example" {
   source = "terraform-alicloud-modules/ess-scaling-rule/alicloud"
   name   = "ess-scaling-rule-config"
 }
@@ -37,13 +37,13 @@ module "rule" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | > = 0.13.0 |
-| <a name="requirement_alicloud"></a> [alicloud](#requirement\_alicloud) | > = 1.56.0 |
+| <a name="requirement_alicloud"></a> [alicloud](#requirement\_alicloud) | > = 1.131.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | > = 1.56.0 |
+| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | > = 1.131.0 |
 
 ## Submit Issues
 
