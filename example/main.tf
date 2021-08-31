@@ -2,6 +2,11 @@ variable "name" {
   default = "terraform_test"
 }
 
+provider "alicloud" {
+  region  = "cn-shenzhen"
+  profile = "default"
+}
+
 data "alicloud_zones" "default" {
   enable_details = true
 }

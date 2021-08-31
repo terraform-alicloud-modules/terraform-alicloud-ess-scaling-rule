@@ -1,11 +1,18 @@
-Terraform module which creates ESS&Scaling&Rule on Alibaba Cloud
+Terraform module which creates ESS Scaling Rule on Alibaba Cloud
 
 terraform-alicloud-ess-scaling-rule
 ---
 
 [English](README.md) | 简体中文
 
-本 Module 用于在阿里云创建 ESS 相关资源，包含 `ESS`、`Scaling`、`Rule`。
+本 Module 用于在阿里云创建 ESS 伸缩规则。
+
+本 Module 支持创建以下资源:
+
+* [alicloud_security_group_rule](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/security_group_rule)
+* [alicloud_ess_scaling_group](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/ess_scaling_group)
+* [alicloud_ess_scaling_configuration](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/ess_scaling_configuration)
+* [alicloud_ess_scaling_rule](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/ess_scaling_rule)
 
 ## Terraform 版本
 
