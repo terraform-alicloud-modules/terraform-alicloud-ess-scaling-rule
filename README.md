@@ -54,7 +54,7 @@ a [provider issue](https://github.com/terraform-providers/terraform-provider-ali
 
 ## Authors
 
-Created and maintained by Will(ppnjy@qq.com)
+Created and maintained by Alibaba Cloud Terraform Team(terraform@alibabacloud.com)
 
 ## License
 
