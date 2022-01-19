@@ -16,7 +16,7 @@ These types of resources are supported:
 
 ## Terraform versions
 
-The Module requires Terraform 0.12 and Terraform Provider AliCloud 1.56.0+.
+The Module requires Terraform 0.13 and Terraform Provider AliCloud 1.56.0+.
 
 ## Usage
 
@@ -54,7 +54,7 @@ a [provider issue](https://github.com/terraform-providers/terraform-provider-ali
 
 ## Authors
 
-Created and maintained by Will(ppnjy@qq.com)
+Created and maintained by Alibaba Cloud Terraform Team(terraform@alibabacloud.com)
 
 ## License
 
