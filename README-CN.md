@@ -16,7 +16,7 @@ terraform-alicloud-ess-scaling-rule
 
 ## Terraform 版本
 
-本 Module 要求使用 Terraform 0.12 和 阿里云 Provider 1.56.0+。
+本 Module 要求使用 Terraform 0.13 和 阿里云 Provider 1.56.0+。
 
 ## 用法
 
@@ -54,7 +54,7 @@ module "example" {
 
 ## 作者
 
-Created and maintained by Will(ppnjy@qq.com)
+Created and maintained by Alibaba Cloud Terraform Team(terraform@alibabacloud.com)
 
 ## 许可
 
